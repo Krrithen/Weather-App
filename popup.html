@@ -3,18 +3,57 @@
 <head>
   <title>Weather Extension</title>
   <style>
-    body { font-family: Arial, sans-serif; background-color: #f4f4f4; }
-    .container { padding: 20px; }
-    input { width: 80%; padding: 8px; margin: 10px 0; }
-    button { padding: 10px; background-color: #008CBA; color: white; border: none; }
+    body { 
+      font-family: Arial, sans-serif; 
+      background-image: url('Weather.png'); 
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 0px;
+      width: 500px; 
+      height: 300px;
+      border: 5px solid black; 
+      display: grid;
+      grid-template-rows: 20% 80%;
+    }    
+    .container { 
+      padding: 20px;     
+      display: flex;
+      flex-direction: column;
+      justify-content: center; 
+      align-items: center;
+      text-align: center;
+    }
+    input { 
+      width: 80%; 
+      padding: 8px; 
+      margin: 10px 0; 
+    }
+    button { 
+      padding: 10px; 
+      background-color: #008CBA; 
+      color: white; 
+      border: none; 
+    }
+    #weatherResult {
+      color: rgb(60, 0, 60);
+      font-size: 18px;
+      padding: 5px;
+      background-color: lightgray;
+      border: 15px solid transparent;
+      border-radius: 15px;
+    }
   </style>
 </head>
 <body>
+  <div class="empty-section">
+
+  </div>
   <div class="container">
-    <h1>Weather</h1>
     <input type="text" id="location" placeholder="Enter Location" />
     <button id="getWeather">Get Weather</button>
-    <div id="weatherResult"></div>
+    <div class="result">
+      <p id="weatherResult"></p>
+    </div>
   </div>
   <script src="popup.js"></script>
 </body>
