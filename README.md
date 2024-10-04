@@ -1,8 +1,12 @@
 # Weather Chrome Extension
 
 This **Weather Chrome Extension** provides real-time weather updates for any location. With a simple and user-friendly interface, users can enter a city name and instantly retrieve weather data such as temperature, conditions, and more. The extension uses the OpenWeather API to fetch accurate weather information. The design includes a vertical layout, with a 40% empty top section and a 60% content section for weather inputs and results.
-<img width="560" alt="WeatherOutput" src="https://github.com/user-attachments/assets/dee32e4b-e71c-473f-9bb3-1702cc109a49">
-
+</br>
+</br>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/dee32e4b-e71c-473f-9bb3-1702cc109a49" width="560" alt="WeatherOutput">
+</div>
+</br>
 
 ## Features
 
