@@ -33,7 +33,7 @@ This **Weather Chrome Extension** provides real-time weather updates for any loc
 4. Click Load Unpacked and select the folder where you cloned the repository.
 5. The extension will appear in your Chrome toolbar. Click on the icon to open the weather popup.
 
-##How to Use
+## How to Use
 Click on the Weather Extension icon in the Chrome toolbar.
 Enter the location for which you want to fetch weather updates.
 Press the "Get Weather" button.
